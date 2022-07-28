@@ -8,8 +8,8 @@ https://dev.to/
 ## Requirements
 
 - Support multiple users
-- Display everyone's blogs
-- Creating posts for every user, don't forget to show the auther on the post
+- Display everyone's blogs, podcasts, videos and tags
+- Creating posts (blogs) for every user, don't forget to show the auther on the post
 - Each blog should have a picture attached to it
 - Allow markdown writing (styling using markdown)
 - You need to have tags,and likes for each post
@@ -23,3 +23,5 @@ https://dev.to/
 - have a read-later section for each user
 - make the website responsive
 - link it with a backend 
+- make podcasts, and videos and tags clickables 
+- make podcasts, and videos and tags functional
