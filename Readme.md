@@ -14,7 +14,7 @@ https://dev.to/
 - Each blog should have a picture attached to it
 - Allow markdown writing (styling using markdown)
 - You need to have tags,and likes for each post
-- A profile page that show all the user's posts
+- A profile page that show all the user's posts along side their place of work and github
 - Finally you need a comments section for each post
 
 ## Bonus
