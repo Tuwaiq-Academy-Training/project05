@@ -1,0 +1,373 @@
+
+:root {
+	--bg-1: #fafafa;
+  --bg-2: #ffffff;
+  --border: #dbdbdb;
+  --footer: #e5e5e5;
+
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+	display: flex;
+	min-height: 100%;
+}
+
+body {
+	background-color:var(--bg-2);
+	color: var(--our-white);
+	font-size: 18px;
+	flex: 1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  align-items: center;
+ margin-top: 40px;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 54px;
+}
+
+/* sidnavbar */
+.box{
+  display: grid;
+  
+  }
+  .sidnav {
+    position: fixed; 
+    display: flex; 
+     flex-direction: column; 
+  width: 160px;
+  margin-top: 80px;
+  height: 100%;
+  
+  }
+  
+  .sidnav a {
+    padding: 5px 4px 3px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    color: #4f4e50;
+    display: block;
+   
+  }
+ 
+  .sidnav a:hover  {
+    color: #f1f1f1;
+    background-color: #c128f9d8;
+    border-radius: 5px;
+    border-bottom: 1px dashed rgba(0, 0, 0, .2);
+  }
+
+  .article-box {
+    display: block;
+    width: 450px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    margin-top: 100px;
+    background:var(--bg-2);
+    border-radius: 10px;
+   
+  }
+  .article-box .image {
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+  }
+  .article-box .title a:hover span {
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    
+  }
+  .article-box .title a {
+    display: block;
+    padding: 25px;
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
+    text-decoration: none;
+    
+  }
+  
+/* navbar */
+.header{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 56px;
+  padding: 0px 60px;
+  margin: 0;
+  
+}
+.dev-img{
+  cursor: pointer;
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 50px;
+  height: 40px;
+}
+.input-on-search{
+  flex: 1;
+  border-radius: 5px;
+  border:0.5px solid gray;
+ padding: 20px;
+}
+.search-input{
+  display: flex;
+  width: 420px;
+  height: 36px;
+  padding: 0px 8px;
+}
+
+.search-icon{
+  position: relative;
+  cursor: pointer;
+  top: 8px;
+  right: 30px;
+  height: 24px;
+  size: 25px;
+}
+.Login-create{
+  display: flex;
+  /* justify-content: end; */
+  align-items: center;
+  flex: 1;
+  gap: 15px;
+  width: 200px;
+  height: 50px;
+ 
+}
+.login-box{
+  font-size: large;
+  font-weight: 800;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 83px;
+  height: 40px;
+  margin-left: 400px;
+}
+.login-box:hover{
+  background-color: rgba(125, 125, 197, 0.295);
+}
+.create-account{
+  font-size: large;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#3a48e6;
+  background-color: var(--bg-2);
+  border: 1px solid #1524c9;
+  border-radius: 8px;
+  width: 160px;
+  height: 45px;
+  
+}
+.create-account:hover{
+  color:var(--bg-2);
+  background-color:rgba(64, 64, 211, 0.918);
+}
+.Login-create a{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+/* separator login OR */
+.separator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+  margin-top: 6px;
+}
+
+.separator .line {
+  height: 1px;
+  width: 40%;
+  background-color: #dbdbdb;
+}
+ /* footer */
+.footerEnd{
+  width: 100%;
+  background-color:var(--footer);
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+/* profile */
+.profile-header{
+  width: 100%;
+  height: 150px;
+  background-color: black;
+}
+.profile{
+  position: relative;
+  align-content: center;
+  bottom: 20%;
+  width: 73%;
+  height: 300px;
+  margin: 0px 14%;
+  border-radius: 10px;
+  background-color: var(--bg-2);
+  color: black;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+}
+.profile .btn-edit{
+  background-color: #3b49df;
+  color: #ffffff;
+  font-size: large;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 120px;
+  text-align: center;
+  padding: 8px 12px ;
+  right: -710px;
+  top:-100px;
+  position: relative;
+  font-weight: 600;
+}
+.img-profile{
+  position: relative;
+  left: 45%;
+  bottom: 25%;
+  width: 130px;
+  border-radius: 60%;
+}
+.bio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  color: black;
+  bottom: 60px;
+  left: 300px;
+  width: 400px;
+}
+.bio-icon{
+  display: flex;
+  gap: 10px;
+  padding-top: 25px;
+}
+
+.btn-edit:hover{
+  background-color:#101b97c2;
+}
+.info{
+  background-color: var(--bg-1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 40px;
+  width: 350px;
+  height: 120px;
+  border-radius: 10px;
+  margin-left: 15%;
+  color: black;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.mor-info{
+  gap: 20px;
+  padding-left: 15px;
+  display: flex;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.git-info:hover{
+  background-color:#101b97c2;
+  border-radius: 50%;
+  
+}
+
+/* login */
+.form{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 7.5%;
+  gap: 15px;
+  color: black;
+}
+.input{
+  width: 544px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #dadadb;
+}
+.checkbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 190px;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.checkbox:hover{
+  background-color: #3b49df25;
+}
+.Continue{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 10px;
+  width: 544px;
+  height: 44px;
+  background-color:#3b49df ;
+}
+.Continue:hover{
+  background-color:#3b49dfe8 ;
+}
+.ch{
+  cursor: pointer;
+}
+.forgot-pass{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+
+@media screen and (max-height: 600px) {
+  .sidnav a {font-size: 14px;}
+}
