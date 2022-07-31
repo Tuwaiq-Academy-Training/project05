@@ -1,0 +1,64 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 700px;
+}
+.login__box {
+  background-color: #fff;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__box > form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.login__input {
+  display: flex;
+  flex-direction: column;
+}
+.login__input > label {
+  font-weight: bold;
+  color: #777;
+}
+.login__input > input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+.login__box button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(59, 73, 223);
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.login__forgot {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(59, 73, 223);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.login__err {
+  text-decoration: none;
+  font-weight: bold;
+  cursor: default;
+  color: rgb(233, 66, 66);
+}

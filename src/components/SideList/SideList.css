@@ -1,0 +1,22 @@
+.sideList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sideItem {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #111;
+  text-decoration: none;
+}
+
+.sideItem:hover {
+  text-decoration: underline;
+  background: rgba(59, 73, 223, 0.1);
+  color: rgb(59, 73, 223);
+}

@@ -1,0 +1,33 @@
+.tag {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  position: relative;
+  overflow: hidden;
+}
+.tag__line {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background: #eee;
+  display: block;
+  height: 20px;
+}
+.tag__content {
+  padding: 20px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.tag__btn {
+  background: #ddd;
+  width: 100px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  cursor: pointer;
+}
