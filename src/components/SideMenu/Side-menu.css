@@ -1,0 +1,73 @@
+.Sidemenu {
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sideItem {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #111;
+  text-decoration: none;
+}
+
+.sideItem:hover {
+  text-decoration: underline;
+  background: rgba(59, 73, 223, 0.1);
+  color: rgb(59, 73, 223);
+}
+.sidebar{
+  padding: 30px;
+  padding-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+.sidebar-items{
+  list-style: none;
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+/* color: rgb(64 64 64); */
+}
+
+#home,#read,#lstn,#podcast,#vid,#tag{
+  color:rgb(64 64 64); 
+  text-decoration: none;
+
+  
+}
+#home:hover,#read:hover,#lstn:hover,#podcast:hover,#vid:hover,#tag:hover{
+  background: rgb(197, 202, 255);
+  
+  border-radius: 4px;
+  text-decoration: underline;
+}
+
+.side-icons{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  
+  gap: 18px;
+  
+
+}
+.side-icons a{
+  display: flex;
+text-decoration: none;
+color:rgb(64 64 64);
+align-items: center;
+}
+.side-icons a:hover{
+ background: rgb(197, 202, 255);
+ border-radius: 4px;
+
+
+ 
+}
