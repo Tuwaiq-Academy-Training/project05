@@ -65,7 +65,7 @@ function App() {
   const store = {
 
     addPost,
-    editProfile
+    editProfile,
 
   }
 

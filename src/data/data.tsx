@@ -12,7 +12,8 @@ export interface IPost {
     created_at: Date;
     likeCount: number;
     comments: IComment[];
-    tags: string ,
+    content: string;
+    tags: string,
 }
 
 export const posts: IPost[] = JSON.parse(localStorage.getItem("IPost") || "[]")

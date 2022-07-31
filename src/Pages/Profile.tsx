@@ -6,7 +6,7 @@ import { BsChatText } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 export function Profile() {
-    const profile = JSON.parse(localStorage.getItem('Profile') || "")
+    const profile = JSON.parse(localStorage.getItem('Profile') || "{}")
     return (
         <>
             <NavbarPage />

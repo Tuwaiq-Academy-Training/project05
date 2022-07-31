@@ -6,7 +6,7 @@ interface PostProps {
     post: IPost;
 }
 
-const profile = JSON.parse(localStorage.getItem('Profile') || "")
+const profile = JSON.parse(localStorage.getItem('Profile') || '{}')
 
 export function Post({ post }: PostProps) {
     return (
@@ -19,12 +19,15 @@ export function Post({ post }: PostProps) {
                     <img src={post.userAvatarUrl} alt='' />
                     <h2>{profile.name}</h2>
                     <div className='spacer'></div>
-                   
+
                     <FiMoreHorizontal />
                 </div>
                 <div className='h1-prog'>
                     <h1 className='title-post'>{post.title}</h1>
                     <p className='tag-prog'>{post.tags}</p>
+                    <div>
+                        <p>{post.content}</p>
+                    </div>
                 </div>
                 <div className='footer'>
                     <div className='icons'>
