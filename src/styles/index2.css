@@ -1,0 +1,101 @@
+.loginbx-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+    padding: 12px 220px;
+    /* border-radius: 4px; */
+    color: grey;
+    cursor: pointer;
+    background:var(--log-btn);
+    font-size: 16px;
+
+   border: 1px solid #e6e6e6;
+    width: 900px;
+    height: 90%;
+    margin: 50px auto;
+		/* padding: 10px; */
+    
+    /* flex: 1; /
+    align-items: center;
+    justify-content: center;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  width: 600px;
+  padding: 90px;
+  
+  
+  
+  }
+  .inputs{
+    display: flex;
+    flex-direction: column;
+  
+    gap: 20px;
+  
+  }
+  #email ,#pass{
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+  
+  }
+  .login-header{
+  display: flex;
+  flex-direction: column;
+  
+  }
+  .header--text{
+    font-size: 30px;
+    text-align: center;
+  
+  }
+  .parag{
+    text-align: center;
+    font-size: 18px;
+    width: 500px;
+    color: rgb(108, 100, 100);
+  
+  
+    }
+    #parag-link{
+  
+      color: var(--log-btn);
+    }
+  
+  .lgn-bx{
+    / border: 1px solid grey; /
+    / width: fit-content; /
+    padding: 20px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+  
+  
+  }
+  .check{
+    display: flex;
+    gap:4px;
+  }
+  #checkbox{
+    width: 18px;
+  }
+  .continue-pass{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .continue{
+    border: 1px solid rgb(59 73 223);
+  / padding: 8px; */
+  
+  
+  
+  }
+  .continue:hover{
+    background: var(--bg-lgn-btn);
+  }
