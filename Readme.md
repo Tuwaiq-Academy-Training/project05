@@ -1,27 +1,46 @@
-# Project 5
+# Getting Started with Create React App
 
-You are an upcoming fresh graduate, or maybe you are a have learned quite a bit during the last couple of week, and you are afraid that you might not be able to retain all these information, you wanted to keep your information safe, and the idea of writing blogs came to your mind, and therefore want to build one, since all the other blogging site these days come with a subscription and/or limit.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-you need the design to be the same exactly:   
-https://dev.to/   
+## Available Scripts
 
-## Requirements
+In the project directory, you can run:
 
-- Support multiple users
-- Display everyone's blogs, podcasts, videos and tags
-- Creating posts (blogs) for every user, don't forget to show the auther on the post
-- Each blog should have a picture attached to it
-- Allow markdown writing (styling using markdown)
-- You need to have tags,and likes for each post
-- A profile page that show all the user's posts along side their place of work and github
-- Finally you need a comments section for each post
+### `yarn start`
 
-## Bonus
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- support searching content
-- support filtering content using tags
-- have a read-later section for each user
-- make the website responsive
-- link it with a backend 
-- make podcasts, and videos and tags clickables 
-- make podcasts, and videos and tags functional
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

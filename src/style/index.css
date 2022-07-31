@@ -1,0 +1,67 @@
+ :root {
+	--header: rgb(255,255,255);
+	--nav: #F5F5F5;
+	--form: #3B49DF;
+	--form2: #FAFAFA;
+	--bg-1: #fafafa;
+	--bg-2: #ffffff;
+	--border: #dbdbdb;
+	--blue: #0095f6;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: var(--header);
+	color: var(--our-white);
+	font-size: 18px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.header{
+	background-color: white;
+}
+.header .logo .logoimg{
+  padding: 16px 24px;
+  margin-right: 0%;
+  margin-left: 15%;
+  
+  
+
+;}
+
+.logo .logoimg{
+width: 100px;
+  }
+  .logo{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+  }
+
+.logo button{
+position: relative;
+left: 400px;
+	gap: 50px;
+	padding: 8px;
+	background-color: white;
+	border-radius: 12px;
+	color: blue;
+	border: 1px solid;
+	border-radius: 10px;
+	
+  }
+.icon{
+	position: relative;
+left: 400px;
+  }
