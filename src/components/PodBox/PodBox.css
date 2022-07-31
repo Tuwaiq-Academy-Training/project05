@@ -1,0 +1,22 @@
+.podBox__box {
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+.podBox__box:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.podBox__box > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.podBox__boxText {
+  padding: 10px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}

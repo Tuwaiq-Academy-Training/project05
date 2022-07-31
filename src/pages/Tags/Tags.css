@@ -1,0 +1,13 @@
+.tags {
+  width: 100%;
+  padding: 10px 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.tags__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
