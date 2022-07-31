@@ -1,0 +1,64 @@
+.post {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+
+.post__name {
+  margin-bottom: 10px;
+  color: #777;
+}
+
+.post__title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.post__title:hover {
+  color: rgb(56, 56, 182);
+}
+
+.post__icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;
+  color: #777;
+}
+
+.post__iconsItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.flx-post{
+  display: flex;
+
+  align-items: center;
+
+}
+.post-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.save-date{
+  display: flex;
+  gap: 10px;
+  color: #777;
+  align-items: center;
+}
+#save{
+  display: block;
+  cursor: pointer;
+  background-color: rgb(208, 208, 208);
+padding: 8px;
+border-radius: 4px;
+}
+#save:hover{
+  background: rgb(166, 166, 166);
+}
