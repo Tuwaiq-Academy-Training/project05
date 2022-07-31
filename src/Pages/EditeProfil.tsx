@@ -9,26 +9,35 @@ export function EditeProfile() {
     return (
         <>
             <NavbarPage />
-            <h1> Setting for @essa433</h1>
-            <form onSubmit={editProfile} className="container-edit-profile">
+            <div className="con-head">
+            <h1 className="head-edit"> Setting for</h1>
+            <h1 className="head-edit-2"> @essa433</h1>
+
+            </div>
+            
+            <form className="container-edit-profile" onSubmit={editProfile} >
+                <div className="insid-form">
+
                 <h1> User </h1>
-                <div>
+                <div className="label-input">
                     <label htmlFor="">Name</label>
-                    <input defaultValue={profile.name} type="text" name="name" />
+                    <input className="label-input-in" defaultValue={profile.name} type="text" name="name" />
                 </div>
-                <div>
+                <div className="label-input">
                     <label htmlFor="">Email</label>
-                    <input defaultValue={profile.email} type="text" name="email" />
+                    <input className="label-input-in" defaultValue={profile.email} type="text" name="email" />
                 </div>
-                <div>
+                <div className="label-input">
                     <label htmlFor="">Username</label>
-                    <input defaultValue={profile.username} type="text" name="username" />
+                    <input className="label-input-in" defaultValue={profile.username} type="text" name="username" />
                 </div>
-                <div>
-                    <button>Edit </button>
+
                 </div>
 
             </form>
+                <div className="cont-btn-edit">
+                    <button className="btn-edit-1">Edit </button>
+                </div>
         </>
     )
 }

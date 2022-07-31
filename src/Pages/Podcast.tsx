@@ -10,10 +10,13 @@ export function Podcasts() {
     return (
         <>
             <NavbarPage />
+
             <div className='conainer-podcast'>
+
                 <div className='podcast-head'>
                     <h1> Podcasts</h1>
                     <p>Suggest Podcast</p>
+                    
                 </div>
                 <div className='podcast-card'>
                     {podcastDivs}

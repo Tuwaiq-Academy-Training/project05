@@ -9,16 +9,19 @@ interface PodcastProps {
 export function Podcast({ podcast }: PodcastProps) {
     return (
         <>
+            <div className='card-pdcastcontain' >
 
-            <div>
-                <img className="podcast-img" src={podcast.imageUrl} alt='' />
-                <div >
-                    <p>{podcast.description}</p>
-                </div>
-                <div>
-                    <p>{podcast.tagfFooter}</p>
-                </div>
+                <div className='img-prag' >
+                    <img className="podcast-img" src={podcast.imageUrl} alt='' />
+                    <div className='card-pod-info'>
+                        <p>{podcast.description}</p>
 
+                        <p className='p-p-light'>{podcast.tagfFooter}</p>
+
+                    </div>
+
+
+                </div>
             </div>
 
 

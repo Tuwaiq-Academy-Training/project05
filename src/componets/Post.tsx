@@ -12,13 +12,14 @@ export function Post({ post }: PostProps) {
     return (
         <>
             <div className='post'>
+                <div>
+                    <img className='img-head-post' src={post.imageUrl} alt="" />
+                </div>
                 <div className='header'>
                     <img src={post.userAvatarUrl} alt='' />
                     <h2>{profile.name}</h2>
                     <div className='spacer'></div>
-                    <div>
-                        <img src={post.imageUrl} alt="" />
-                    </div>
+                   
                     <FiMoreHorizontal />
                 </div>
                 <div className='h1-prog'>

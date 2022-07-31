@@ -60,9 +60,14 @@ body {
   /* margin-top: 5%; */
   margin: 5%;
 
-
-
 }
+
+.img-head-post {
+  height: 50vh;
+  width: 100vw;
+  background-size: contain;
+}
+
 
 .posts {
   flex: 1;
@@ -376,12 +381,7 @@ li a {
 
 }
 
-.podcast-head {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px 20px;
-  align-items: center;
-}
+
 
 
 
@@ -393,17 +393,52 @@ li a {
 }
 
 .podcast-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
   align-items: center;
-  border: 1px solid black;
+  gap: 10px;
+
+}
+
+.podcast-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+  align-items: center;
+}
+
+.card-pdcastcontain {
+  background-color: white;
+  border: 1px solid rgb(209, 206, 206);
+  border-radius: 10px;
+
 }
 
 .podcast-img {
-  width: 100px;
-  height: 100px;
+  width: 24vw;
+  height: 50vh;
+  border-radius: 10px 10px 0px 0px;
 }
 
+.p-p-light {
+  font-size: 14px;
+  color: #999;
+}
 
+.img-prag {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 19vw;
+}
+
+.card-pod-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 0px 10px;
+}
 
 /* --------------- vidoe Page ----------------------- */
 
@@ -697,4 +732,157 @@ p.card-description {
 
 .custom-file-input:active::before {
   background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+
+/* --------------- profile page -------------------------------------- */
+
+.con-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 50px 20px 20px 30px;
+}
+
+.container-profile-top {
+  position: relative;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  border: 1px solid rgb(219, 218, 218);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.img-prof {
+  position: absolute;
+  border-radius: 50%;
+  right: 3px;
+  top: 3px;
+
+}
+
+.contain-img {
+  text-align: center;
+  position: relative;
+  bottom: 70px;
+  background-color: black;
+  border-radius: 0%;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+
+}
+
+.btn-edit {
+  background-color: #3069ec;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: #0649e4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.con-btn {
+  position: absolute;
+  height: 90%;
+  left: 90%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -20px;
+
+}
+
+.container-profile-down {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid rgb(209, 208, 208);
+  display: inline;
+  border-radius: 5px;
+
+}
+
+.down-down {
+  display: flex;
+  gap: 10px;
+  padding: 3px;
+}
+
+
+/* ------------------- edit profile ------------ */
+
+.container-edit-profile{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  
+}
+.insid-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  padding: 30px;
+}
+.label-input{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+.label-input-in{
+width: 200px;
+padding: 10px;
+}
+.con-head{
+  display: flex;
+  gap: 5px;
+  margin: 20px 20px;
+}
+.head-edit{
+}
+.head-edit-2{
+  color: #5456de;
+}
+.cont-btn-edit{
+  padding: 20px ;
+  
+}
+.btn-edit-1{
+ 
+    background-color: #3069ec;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  
+}
+.btn-edit-1:hover{
+  background-color: #0647de;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
 }
